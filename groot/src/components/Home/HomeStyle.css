@@ -1,0 +1,76 @@
+.Chat-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.chat {
+    height: 95%;
+    min-width: 90%;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    /* background-color: aqua; */
+    /* overflow: scroll; */
+}
+.input-combinations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 2rem;
+    width: 65vw;
+    /* background-color: black; */
+}
+
+.python-Text {
+    left: 10px;
+    border-radius: 0px 10px 10px 10px;
+    background-color: #29c776;
+    text-transform: capitalize;
+}
+
+.user-Text {
+    background-color: #6a513b;
+    width: 100%;
+    border-radius: 10px 10px 0px 10px;
+
+}
+
+.usertxt-container {
+    display: flex;
+    justify-content: right;
+}
+
+.inputBox {
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+}
+
+.inputField ,
+.inputField:active {
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    outline: 0px;
+    transition: all 0.1s ease-in-out;
+}
+.inputField:active,
+.inputField:focus{
+    background-color: #dddddd;
+}
+.chat-message {
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+}
+.btn{
+    text-transform: capitalize;
+    color: #fff !important;
+}
+.btn:hover {
+    /* background-color: aqua !important; */
+    color: black !important;
+}
