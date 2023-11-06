@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 
-file_path = "E:/Nexathon/Frontend/groot/Python/data.json"
+file_path = "Python/data.json"
 
 # Class for a message
 class Message:

@@ -33,7 +33,7 @@ export default function Home() {
   }, []);
 
   const redirectToTable = (message) => {
-   navigate(`/about/${message}`);
+   navigate(`/Table/${message}`);
   };
   
     function ChatCreation(){

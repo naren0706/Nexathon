@@ -1,47 +1,48 @@
 [
-    {
-        "key": 1,
-        "createdBy": "user",
-        "message": "hi"
-    },
-    {
-        "key": 2,
-        "createdBy": "python",
-        "message": "helo"
-    },
-    {
-        "key": 3,
-        "createdBy": "user",
-        "message": "how are you "
-    },
-    {
-        "key": 4,
-        "createdBy": "python",
-        "message": "fine thank you "
-    },
-    {
-        "key": 5,
-        "createdBy": "user",
-        "message": "okay"
-    },
-    {
-        "key": 6,
-        "createdBy": "python",
-        "message": "helo"
-    },
-    {
-        "key": 7,
-        "createdBy": "user",
-        "message": "naren"
-    },
-    {
-        "key": 8,
-        "createdBy": "user",
-        "message": "testting"
-    },
-    {
-        "key": 9,
-        "createdBy": "user",
-        "message": "helo"
-    }
+  {
+    "key": 1,
+    "createdBy": "user",
+    "responseData": "hi"
+  },
+  {
+    "key": 2,
+    "createdBy": "python",
+    "isValidMessage": true,
+    "responseData": "helo"
+  },
+  {
+    "key": 3,
+    "createdBy": "user",
+    "responseData": "how are you "
+  },
+  {
+    "key": 4,
+    "createdBy": "python",
+    "responseData": "fine thank you "
+  },
+  {
+    "key": 5,
+    "createdBy": "user",
+    "responseData": "okay"
+  },
+  {
+    "key": 6,
+    "createdBy": "python",
+    "responseData": "helo"
+  },
+  {
+    "key": 7,
+    "createdBy": "user",
+    "responseData": "naren"
+  },
+  {
+    "key": 8,
+    "createdBy": "user",
+    "responseData": "testting"
+  },
+  {
+    "key": 9,
+    "createdBy": "user",
+    "responseData": "helo"
+  }
 ]
