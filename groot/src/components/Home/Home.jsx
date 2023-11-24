@@ -44,14 +44,16 @@ export default function Home() {
             {data.map((dataObj) => (
                             <div key={dataObj.key} className={dataObj.createdBy === 'python' ? 'pythontxt-container' : 'usertxt-container'}>
                 <div key={dataObj.key} className={dataObj.createdBy === 'python' ? 'python-Text chat-message' : 'user-Text chat-message'}>
-                  <p>{dataObj.message}</p>
+                  <p className='messages'>{dataObj.responseData}</p>
                 {
                   dataObj.createdBy === 'python' ? (
                     <div className="python-button">
                       <button 
                       className='btn btn-warning' 
-                      onClick={() => redirectToTable(dataObj.message)}
-                      >execute</button>
+                      onClick={() => redirectToTable(dataObj.responseData)}
+                      >
+                        execute
+                      </button>
                     </div>
                   ):(
                     <div>
